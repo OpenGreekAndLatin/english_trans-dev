@@ -46,8 +46,8 @@
                   <name xml:lang="en">Edward P. Coleridge</name>
                 </persName>
               </editor> 
-              <author>Apollonius Rhodius</author>  
-              <title>The Argonautica of Apollonius Rhodius</title>
+              <author  ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0001">Apollonius Rhodius</author>  
+              <title ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0001.tlg001.opp-eng1">The Argonautica of Apollonius Rhodius</title>
               <imprint>
                 <publisher>George Bell and Sons</publisher>
                 <pubPlace>London</pubPlace>

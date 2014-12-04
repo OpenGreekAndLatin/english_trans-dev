@@ -46,7 +46,7 @@
                   <name xml:lang="en"></name>
                 </persName>
               </editor> 
-              <author>Chariton of Aphrodisios</author>  
+              <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0554">Chariton of Aphrodisios</author>  
               <title>The Loves of Chaereas and Callirrhoe</title>
               <imprint>
                 <publisher>T. Becket and P. A. De Hondt</publisher>

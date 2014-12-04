@@ -46,7 +46,7 @@
                   <name xml:lang="en"></name>
                 </persName>
               </editor> 
-              <author>Alciphron</author>  
+              <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0640">Alciphron</author>  
               <title>The Letters of Alciphron</title>
               <imprint>
                 <publisher>Privately printed for the Athenian Society</publisher>

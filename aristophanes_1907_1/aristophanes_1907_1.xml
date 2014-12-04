@@ -46,7 +46,7 @@
                   <name xml:lang="en">William James Hickie</name>
                 </persName>
               </editor> 
-              <author>Aristophanes</author>  
+              <author  ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0019">Aristophanes</author>  
               <title>The Comedies of Aristophanes</title>
               <imprint>
                 <publisher>George Bell and Sons</publisher>
