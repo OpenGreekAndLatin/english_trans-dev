@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,10 +17,6 @@
           <resp>Project Manager (University of Leipzig)</resp>
         </respStmt>
         <respStmt>
-          <persName>Simona Stoyanova</persName>
-          <resp>Project Assistant (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
           <persName>Bruce Robertson</persName>
           <resp>Technical Advisor (Mount Allison University)</resp>
         </respStmt>
@@ -27,7 +24,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">demosthenes_1902.xml</idno>
+        <idno type="filename">quintilian_2_1913.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -42,20 +39,22 @@
             <monogr>
               <editor>
                 <persName>
-                  <name xml:lang="en">Charles Rann Kennedy</name>
+                  <name xml:lang="en">John Selby Watson</name>
                 </persName>
               </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0014">Demosthenes</author>  
-              <title>The Orations</title>
+              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:phi1002
+                ">Quintilian</author> 
+              <title>Institutes of Oratory</title>
               <imprint>
                 <publisher>George Bell and Sons</publisher>
                 <pubPlace>London</pubPlace>
-                <date>1902</date>
+                <date>1913</date>
               </imprint>
+              <biblScope unit="volume">2</biblScope>
             </monogr>
             <ref
-              target="https://archive.org/stream/orationsdemosth03demogoog"
-              >Internet Archive</ref>
+              target="http://hdl.handle.net/2027/mdp.39015008606637"
+              >HathiTrust</ref>
             
           </biblStruct>
         </listBibl>
