@@ -24,7 +24,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">philo_1854_2.xml</idno>
+        <idno type="filename">philo_2_1854.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -58,6 +58,7 @@
                 <pubPlace>London</pubPlace>
                 <date>1878</date>
               </imprint>
+              <biblScope unit="volume">2</biblScope>
             </monogr>
             <ref
               target="https://archive.org/details/aristotleshistor00arisrich"
