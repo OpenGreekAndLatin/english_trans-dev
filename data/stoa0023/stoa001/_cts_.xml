@@ -1,0 +1,8 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:stoa0023.stoa001" xml:lang="lat" groupUrn="urn:cts:latinLit:stoa0023">
+    <ti:title xml:lang="lat">Rerum Gestarum</ti:title>
+    <ti:translation urn="urn:cts:latinLit:stoa0023.stoa001.ogl-eng1" workUrn="urn:cts:latinLit:stoa0023.stoa001" xml:lang="eng">
+        <ti:label xml:lang="eng">Roman History</ti:label>
+        <ti:description xml:lang="eng">Ammianus Marcellinus, Roman History, Charles Duke Yonge, Bell, 1894</ti:description>
+    </ti:translation>
+</ti:work>
+

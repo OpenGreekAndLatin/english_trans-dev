@@ -1,0 +1,8 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:greekLit:tlg0237" xml:lang="grc" urn="urn:cts:greekLit:tlg0237.tlg002">
+    <ti:title xml:lang="lat">Fragmenta</ti:title>
+    <ti:translation urn="urn:cts:greekLit:tlg0237.tlg002.ogl-eng1" workUrn="urn:cts:greekLit:tlg0237.tlg002">
+        <ti:label xml:lang="eng">Odes</ti:label>
+        <ti:description xml:lang="mul">Anacreon, Odes, Moore, 1804</ti:description>
+    </ti:translation>
+</ti:work>
+
