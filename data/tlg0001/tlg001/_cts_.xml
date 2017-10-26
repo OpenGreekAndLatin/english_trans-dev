@@ -1,0 +1,7 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:greekLit:tlg0001" xml:lang="grc" urn="urn:cts:greekLit:tlg0001.tlg001" xml:lang="grc">    
+    <ti:title xml:lang="lat">Argonautica</ti:title>
+    <ti:translation urn="urn:cts:greekLit:tlg0001.tlg001.opp-eng1" workUrn="urn:cts:greekLit:tlg0001.tlg001" xml:lang="eng">
+        <ti:label xml:lang="lat">Argonautica</ti:label>
+        <ti:description xml:lang="eng">Apollonius Rhodius, The Argonautica of Apollonius Rhodius, Coleridge, Bell, 1889</ti:description>
+    </ti:translation>    
+</ti:work>
