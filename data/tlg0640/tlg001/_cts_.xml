@@ -1,0 +1,8 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:greekLit:tlg0640" xml:lang="grc" urn="urn:cts:greekLit:tlg0640.tlg001">
+    <ti:title xml:lang="lat">Epistulae</ti:title>
+    <ti:translation urn="urn:cts:greekLit:tlg0640.tlg001.ogl-eng1" workUrn="urn:cts:greekLit:tlg0640.tlg001">
+        <ti:label xml:lang="eng">Letters of Alciphron</ti:label>
+        <ti:description xml:lang="eng">Alciphron, The Letters of Alciphron, Athenian Society, Private Printing, 1896</ti:description>
+    </ti:translation>
+</ti:work>
+

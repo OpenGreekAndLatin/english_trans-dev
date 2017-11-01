@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
         <title>The Letters of Alciphron</title>
+        <author>Alciphron</author>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -28,7 +29,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">alciphron_1896.xml</idno>
+        <idno type="filename">tlg0640.tlg001.ogl-eng1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -69,14 +70,14 @@
     
     <profileDesc>
       <langUsage>
-        <language ident="en">English</language>
+        <language ident="eng">English</language>
       </langUsage>
     </profileDesc>
     
   </teiHeader>
   <text>
     <body>
-      <div type="edition"><pb n="-"/>
+      <div type="translation" xml:lang="eng" n="urn:cts:greekLit:tlg0640.tlg001.ogl-eng1"><pb n="-"/>
         <pb n="-"/>
         <pb n="-"/>
         <pb n="-"/>

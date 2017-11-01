@@ -4,9 +4,9 @@
   <teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
-        <title>The Argonautica of Apollonius Rhodius</title>
-        <author>Apollonius Rhodius</author>
-        <editor>Edward P. Coleridge</editor>
+        <title>Argonautica</title>
+        <author xml:lang="lat">Apollonius Rhodius</author>
+        <editor>Edward P.Coleridge</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +30,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">apollonius_1889.xml</idno>
+        <idno type="filename">tlg0001.tlg001.opp-eng1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,7 +40,7 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="la">
+        <listBibl>
           <biblStruct>
             <monogr>
               <editor>
@@ -49,7 +49,7 @@
                 </persName>
               </editor> 
               <author  ref="urn:cts:greekLit:tlg0001">Apollonius Rhodius</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0001.tlg001.opp-eng1">The Argonautica of Apollonius Rhodius</title>
+              <title ref="urn:cts:greekLit:tlg0001.tlg001.opp-eng1">The Argonautica of Apollonius Rhodius</title>
               <imprint>
                 <publisher>George Bell and Sons</publisher>
                 <pubPlace>London</pubPlace>
@@ -71,14 +71,14 @@
     
     <profileDesc>
       <langUsage>
-        <language ident="en">English</language>
+        <language ident="eng">English</language>
       </langUsage>
     </profileDesc>
     
   </teiHeader>
   <text>
     <body>
-      <div type="edition"><pb n="-"/>
+      <div type="translation" xml:lang="eng" n="urn:cts:greekLit:tlg0001.tlg001.opp-eng1"><pb n="-"/>
         <pb n="-"/>
         <pb n="-"/>
         <pb n="-"/>
@@ -94,7 +94,7 @@
           </head>
           <p>J'AGE <lb/>
             1. TRANSLATOR'S PREFACE ....... vii</p>
-          <p>II. LIFE OF Al'OLLONIUS RHODIUS ..... ix</p>
+          <p>II. LIFE OF APOLLONIUS RHODIUS ..... ix</p>
           <p>III. TWO ANCIENT ARGUMENTS OF THE "ARGONAUTICA , . xv</p>
           <p>IV. GENEALOGICAL TREE OF THE ÆOLIDÆ .... xix</p>
           <p>V. ROUTE OF THE ARGONAUTS xx</p>
