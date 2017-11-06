@@ -1,6 +1,6 @@
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:greekLit:tlg0019" xml:lang="grc" urn="urn:cts:greekLit:tlg0019.tlg010">    
     <ti:title xml:lang="lat">Ecclesiazusae</ti:title>
-    <ti:translation urn="urn:cts:greekLit:tlg0019.tlg003.ogl-eng2" workUrn="urn:cts:greekLit:tlg0019.tlg003" xml:lang="eng">
+    <ti:translation urn="urn:cts:greekLit:tlg0019.tlg010.ogl-eng2" workUrn="urn:cts:greekLit:tlg0019.tlg010" xml:lang="eng">
         <ti:label xml:lang="eng">Ecclesiazusae</ti:label>
         <ti:description xml:lang="mul">Aristophanes, Ecclesiazusae, Benjamin Bickley Rogers, Bell, 1905</ti:description>
     </ti:translation>    
