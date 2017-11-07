@@ -1,0 +1,7 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:greekLit:tlg0019" xml:lang="grc" urn="urn:cts:greekLit:tlg0019.tlg004">    
+    <ti:title xml:lang="lat">Vespae</ti:title>
+    <ti:translation urn="urn:cts:greekLit:tlg0019.tlg004.ogl-eng2" workUrn="urn:cts:greekLit:tlg0019.tlg004" xml:lang="eng">
+        <ti:label xml:lang="eng">Wasps</ti:label>
+        <ti:description xml:lang="eng">Aristophanes, Wasps, Benjamin Bickley Rogers, Bell, 1875</ti:description>
+    </ti:translation>    
+</ti:work>

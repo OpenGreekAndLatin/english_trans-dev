@@ -1,0 +1,7 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:greekLit:tlg0019" xml:lang="grc" urn="urn:cts:greekLit:tlg0019.tlg005">    
+    <ti:title xml:lang="lat">Pax</ti:title>
+    <ti:translation urn="urn:cts:greekLit:tlg0019.tlg005.ogl-eng2" workUrn="urn:cts:greekLit:tlg0019.tlg005" xml:lang="eng">
+        <ti:label xml:lang="eng">Peace</ti:label>
+        <ti:description xml:lang="eng">Aristophanes, Peace, Benjamin Bickley Rogers, Bell, 1913</ti:description>
+    </ti:translation>    
+</ti:work>
