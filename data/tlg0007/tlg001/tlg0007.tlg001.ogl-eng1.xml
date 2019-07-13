@@ -1,0 +1,1325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Life of Theseus</title>
+        <author>Plutarch</author>
+        <editor>Aubrey Stewart</editor>
+        <editor>George Long</editor>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <respStmt>
+          <orgName xml:id="Jouve">Jouve</orgName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Gregory Crane</persName>
+          <resp>Editor-in-Chief, Perseus Digital Library</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Matt Munson</persName>
+          <resp>Project Manager (University of Leipzig), 2016 - present</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Annette Gessner</persName>
+          <resp>Project Assistant (University of Leipzig) 2015 - present</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Thibault Clérice</persName>
+          <resp>Lead Developer (University of Leipzig) 2015 - 2017</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">tlg0007.tlg001.ogl-eng1.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2017</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <listBibl>
+          <biblStruct>
+            <monogr>
+              <editor>
+                <persName>
+                  <name>Aubrey Stewart</name>
+                </persName>
+                <persName>
+                  <name>George Long</name>
+                </persName>
+              </editor> 
+              <author ref="urn:cts:greekLit:tlg0007">Plutarch</author> 
+              <title>Lives</title>
+              <imprint>
+                <publisher>George Bell and Sons</publisher>
+                <pubPlace>London</pubPlace>
+                <date>1906</date>
+              </imprint>
+              <biblScope unit="volume">1</biblScope>
+            </monogr>
+            <ref target="http://hdl.handle.net/2027/uc1.31175002456203">HathiTrust</ref>
+            
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards</p>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(.+)" n="section" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"/>
+      </refsDecl>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+    </profileDesc>
+    
+  </teiHeader>
+  <text>
+    <body>
+      <div type="translation" xml:lang="eng" n="urn:cts:greekLit:tlg0007.tlg001.ogl-eng1"> 
+          <head>
+            <title type="main">PLUTARCH'S LIVES.</title>
+          </head>
+          <ab>
+            <title type="sub">LIFE OF THESEUS.</title>
+          </ab>
+        <div type="textpart" subtype="section" n="1">
+        <p>As in books on geography, Sossius Senecio, the writers <lb/>
+            crowd the countries of which they know nothing into the <lb/>
+            furthest margins of their maps, and write upon them <lb/>
+            legends such as, " In this direction lie waterless deserts <lb/>
+            full of wild beasts;" or, “ Unexplored morasses;" or, <lb/>
+            “ Here it is as cold as Scythia ;” or, “ A frozen sea so <lb/>
+            I, in my writings on Parallel Lives, go through that <lb/>
+            period of time where history rests on the firm basis of <lb/>
+            facts, and may truly say, “ All beyond this is portentous <lb/>
+            and fabulous, inhabited by poets and mythologers, and <lb/>
+            there is nothing true or certain."</p>
+          <p>When I had written the lives of Lykurgus the law­ <lb/>
+            giver and Numa the king, it appeared to me natural to go <lb/>
+            back to Romulus also, as I was engaged on the history of <lb/>
+            times so close to his. So when I was reflecting, in the <lb/>
+            words of AEschylus, <lb/>
+            a Against this chieftain, who can best contend ? <lb/>
+            Whom shall I match in fight, what trusty friend ?” <lb/>
+            it occurred to me to compare the founder of the fair and <lb/>
+            famous city of Athens with him, and to contrast Theseus <lb/>
+            with the father of unconquered glorious Rome. Putting <lb/>
+            aside, then, the mythological element, let us examine his <lb/>
+            story, and wherever it obstinately defies probability, and <lb/>
+            cannot be explained by natural agency, let us beg the in­ <lb/>
+            dulgence of our readers, who will kindly make allowance <lb/>
+            for tales of antiquity. <note type="footnote"> B </note></p><pb n="2"/>
+        </div>
+        <div type="textpart" subtype="section" n="2">
+          <p>Theseus appears to have several points of resemblance <lb/>
+            to Romulus. Both were unacknowledged illegitimate <lb/>
+            children, and were reputed to descend from the Gods. <lb/>
+            “ Both warriors, well we all do know: <lb/>
+            and both were wise as well as powerful. The one founded <lb/>
+            Rome, while the other was the joint founder of Athens; <lb/>
+            and these are two of the most famous of cities. Both <lb/>
+            carried off women by violence, and neither of them escaped <lb/>
+            domestic misfortune and retribution, but towards the end <lb/>
+            of their lives both were at variance with their countrymen, <lb/>
+            if we may put any trust in the least extravagant writings <lb/>
+            upon the subject.</p>
+        </div>
+        <div type="textpart" subtype="section" n="3">
+          <p>Theseus traced his descent on the father's side from <lb/>
+            Erechtheus and the original Autocthones,* while on the <lb/>
+            mother's side he was descended from Pelops. For Pelops <lb/>
+            surpassed all the other princes of the Peloponnesus in the <lb/>
+            number of his children as well as in wealth; and of these <lb/>
+            he gave many of his daughters in marriage to the chief <lb/>
+            men of the country, and established many of his sons as <lb/>
+            rulers in various cities. One of these, Pittheus, the grand­ <lb/>
+            father of Theseus, founded Trœzen, which is indeed but <lb/>
+            a little state, though he had a greater reputation than any <lb/>
+            man of his time for eloquence and wisdom. The nature <lb/>
+            of this wisdom of his seems to have been much of the <lb/>
+            same kind as that which made the reputation of <lb/>
+            Hesiod, in the collection of maxims known as the ‘ Works <lb/>
+            and Days.' One of these maxims is indeed ascribed to <lb/>
+            Pittheus: <lb/>
+            “ Let promised pay be truly paid to friends." <lb/>
+            At any rate, this is what Aristotle the philosopher has <lb/>
+            recorded ; and also Euripides, when he speaks of Hippolytus <lb/>
+            as “ child of holy Pittheus," shows the prevailing opinion <lb/>
+            about Pittheus. Now Ægeus desired to have children, <lb/>
+            and the Oracle at Delphi is said to have given him the <lb/>
+            well-known response, forbidding him to have intercourse <note type="footnote"> * Autochthones was the name by which the original citizens of <lb/>
+            Athens called themselves, meaning that they were sprung from the <lb/>
+            soil itself, not immigrants from some other country. </note> <lb/>
+             <pb n="3"/>
+            with any woman before he reached Athens, but not <lb/>
+            appearing to explain this clearly. Consequently, on his <lb/>
+            way home, he went to Trœzen, and asked the advice of <lb/>
+            Pittheus about the response of the God, which ran thus: <lb/>
+            “ Great chief, the wine-skin's foot must closed remain, <lb/>
+            Till thou to Athens art returned again." <lb/>
+            Pittheus clearly perceived what the oracle must mean, and <lb/>
+            persuaded or cheated Ægeus into an intrigue with Æthra. <lb/>
+            Afterwards, when he discovered that he had conversed <lb/>
+            with the daughter of Pittheus, as he imagined that she <lb/>
+            might prove with child, he left behind him his sword and <lb/>
+            sandals hidden under a great stone, which had a hollow <lb/>
+            inside it exactly fitting them. This he told to AEthra <lb/>
+            alone, and charged her if a son of his should be born, and <lb/>
+            on growing to man's estate should be able to lift the stone <lb/>
+            and take from under it the deposit, that she should send <lb/>
+            him at once with these things to himself, in all secrecy, <lb/>
+            and as far as possible concealing his journey from obser­ <lb/>
+            vation. For he greatly feared the sons of Pallas, who <lb/>
+            plotted against him, and despised him on account of his <lb/>
+            childlessness, they themselves being fifty brothers, all the <lb/>
+            sons of Pallas.</p>
+        </div>
+        <div type="textpart" subtype="section" n="4">
+          <p>When Æthra's child was born, some writers say <lb/>
+            that he was at once named Theseus, from the tokens <lb/>
+            placed under the stone; others say that he was afterwards <lb/>
+            so named at Athens, when Ægeus acknowledged him as <lb/>
+            his son. He was brought up by his grandfather Pittheus, <lb/>
+            and had a master and tutor, Konnidas, to whom even to <lb/>
+            the present day, the Athenians sacrifice a ram on the day <lb/>
+            before the feast of Theseus, a mark of respect which is <lb/>
+            much more justly due to him, than those which they pay <lb/>
+            to Silanion and Parrhasius, who have only made pictures <lb/>
+            and statues of Theseus.</p>
+          </div>
+<div type="textpart" subtype="section" n="5">
+<p>As it was at that period still the custom for those <lb/>
+            who were coming to man's estate to go to Delphi and offer <lb/>
+            to the god the first-fruits of their hair (which was then <lb/>
+            cut for the first time),* Theseus went to Delphi, and they <note type="footnote">* The first cutting of the hair was always an occasion of solemnity <lb/>
+            among the Greeks, the hair being dedicated to some god. The first <lb/>
+            instance of this is in Homer's Iliad, where Achilles speaks of having </note> <note type="footnote"> B 2 </note> <lb/>
+             <pb n="4"/>
+            say that a place there is even to this day named after him. <lb/>
+            But he only cut the front part of his hair, as Homer tells <lb/>
+            us the Abantes did, and this fashion of cutting the hair <lb/>
+            was called Theseus's fashion because of him. The Abantes <lb/>
+            first began to cut their hair in this manner, not having, as <lb/>
+            some say, been taught to do so by the Arabians, nor yet <lb/>
+            from any wish to imitate the Mysians, but because they <lb/>
+            were a warlike race, and met their foes in close combat, <lb/>
+            and studied above all to come to a hand-to-hand fight with <lb/>
+            their enemy, as Archilochus bears witness in his verses: <lb/>
+            “ They use no slings nor bows, <lb/>
+            Eubœa's martial lords, <lb/>
+            But hand to hand they close <lb/>
+            And conquer with their swords.” <lb/>
+            So they cut their hair short in front, that their enemies <lb/>
+            might not grasp it. And they say that Alexander of <lb/>
+            Macedon for the same reason ordered his generals to have <lb/>
+            the beards of the Macedonians shaved, because they were <lb/>
+            a convenient handle for the enemy to grasp.</p>
+          </div>
+<div type="textpart" subtype="section" n="6">
+<p>Now while he was yet a child, Æthra concealed <lb/>
+            the real parentage of Theseus, and a story was circulated <lb/>
+            by Pittheus that his father was Poseidon. For the people <lb/>
+            of Trœzen have an especial reverence for Poseidon; he is <lb/>
+            their tutelar deity; to him they offer first-fruits of their <lb/>
+            harvest, and they stamp their money with the trident <lb/>
+            as their badge. But when he was grown into a youth, <lb/>
+            and proved both strong in body and of good sound sense, <lb/>
+            then AEthra led him to the stone, told him the truth <lb/>
+            about his father, and bade him take the tokens from <lb/>
+            beneath it and sail to Athens with them. He easily lifted <lb/>
+            the stone, but determined not to go to Athens by sea, <lb/>
+            though the voyage was a safe and easy one, and though <lb/>
+            his mother and his grandfather implored him to go that <lb/>
+            way. By land it was a difficult matter to react Athens, <lb/>
+            as the whole way was infested with robbers and bandits. <lb/>
+            That time, it seems, produced men of great and un­ <lb/>
+            wearied strength and swiftness, who made no good use of <note type="footnote"> dedicated his hair to the river Spercheius. The Athenian youth <lb/>
+            offered their hair to Herakles. The Roman emperor Nero, in latef <lb/>
+            times, imitated this custom. </note> <lb/>
+             <pb n="5"/>
+            these powers, but treated all men with overbearing inso­ <lb/>
+            lence, taking advantage of their strength to overpower <lb/>
+            and slay all who fell into their hands, and disregarding <lb/>
+            justice and right and kindly feeling, which they said <lb/>
+            were only approved of by those who dared not do injury <lb/>
+            to others, or feared to be injured themselves, while men <lb/>
+            who could get the upper hand by force might disregard <lb/>
+            them. Of these ruffians, Herakles in his wanderings cut <lb/>
+            off a good many, but others had escaped him by concealing <lb/>
+            themselves, or had been contemptuously spared by him on <lb/>
+            account of their insignificance. But Herakles had the mis­ <lb/>
+            fortune to kill Iphitus, and thereupon sailed to Lydia and <lb/>
+            was for a long time a slave in that country under Omphale, <lb/>
+            which condition he had imposed upon himself as a penance <lb/>
+            for the murder of his friend. During this period the <lb/>
+            country of Lydia enjoyed peace and repose; but in Greece <lb/>
+            the old plague of brigandage broke out afresh, as there <lb/>
+            was now no one to put it down. So that the journey <lb/>
+            overland to Athens from Peloponnesus was full of peril; <lb/>
+            and Pittheus, by relating to Theseus who each of these <lb/>
+            evildoers was, and how they treated strangers, tried to <lb/>
+            prevail upon him to go by sea. But it appears that <lb/>
+            Theseus had for a long time in his heart been excited by <lb/>
+            the renown of Herakles for courage: he thought more <lb/>
+            of him than of any one else, and loved above all to listen <lb/>
+            to those who talked of him, especially if they had seen <lb/>
+            and spoken to him. Now he could no longer conceal that <lb/>
+            he was in the same condition as Themistokles in later <lb/>
+            times, when he said that the trophy of Miltiades would <lb/>
+            not let him sleep. Just so did the admiration which <lb/>
+            Theseus conceived for Herakles make him dream by night <lb/>
+            of his great exploits, and by day determine to equal them <lb/>
+            by similar achievements of his own.</p>
+          </div>
+<div type="textpart" subtype="section" n="7">
+<p>As it happened, they were connected, being second <lb/>
+            cousins; for AEthra was the daughter of Pittheus, and <lb/>
+            Alkmena the daughter of Lysidike, and Lysidike and <lb/>
+            Pittheus were brother and sister, being the children of <lb/>
+            Pelops and Hippodameia. So Theseus thought that it <lb/>
+            would be a great and unbearable disgrace to him that his <lb/>
+            cousin should go everywhere and clear the sea and land <lb/>
+            of the brigands who infested them, and he should refuse <lb/>
+             <pb n="6"/>
+            to undertake the adventures that came in his way; throw­ <lb/>
+            ing discredit upon his reputed father by a pusillanimous <lb/>
+            flight by sea, and upon his real father by bringing him <lb/>
+            only the sandals and an unfleshed sword, and not proving <lb/>
+            his noble birth by the evidence of some brave deed accom­ <lb/>
+            plished by him. In this spirit he set out on his journey, <lb/>
+            with the intention of doing wrong to no one, but of <lb/>
+            avenging himself on any one who offered wrong to him.</p>
+          </div>
+<div type="textpart" subtype="section" n="8">
+<p>And first in Epidaurus he slew Periphetes, who <lb/>
+            used a club as his weapon, and on this account was called <lb/>
+            the club-bearer, because he laid hands upon him and <lb/>
+            forbade him to proceed farther on his way. The club took &lt; <lb/>
+            his fancy, and he adopted it as a weapon, and always used <lb/>
+            it, just as Herakles used his lion's skin; for the skin was <lb/>
+            a proof of how huge a beast the wearer had overcome, <lb/>
+            while the club, invincible in the hands of Theseus, had <lb/>
+            yet been worsted when used against him. At the Isthmus <lb/>
+            he destroyed Sinis the Pine-bender by the very device by <lb/>
+            which he had slain so many people, and that too without <lb/>
+            having ever practised the art, proving that true valour <lb/>
+            is better than practice and training. Sinis had a daughter, <lb/>
+            a tall and beautiful girl, named Perigoune. When her <lb/>
+            father fell she ran and hid herself. Theseus sought her <lb/>
+            everywhere, but she fled into a place where wild asparagus <lb/>
+            grew thick, and with a simple child-like faith besought the <lb/>
+            plants to conceal her, as if they could understand her words, <lb/>
+            promising that if they did so she never would destroy or <lb/>
+            burn them. However, when Theseus called to her, pledging <lb/>
+            himself to take care of her and do her no hurt, she came <lb/>
+            out, and afterwards bore Theseus a son, named Melanippus. <lb/>
+            She afterwards was given by Theseus in marriage to <lb/>
+            Deioneus, the son of Eurytus of Œchalia. Ioxus, a son of <lb/>
+            Melanippus, and Theseus's grandchild, took part in <lb/>
+            Ornytus's settlement in Caria; and for this reason the <lb/>
+            descendants of Ioxus have a family custom not to burn <lb/>
+            the asparagus plant, but to reverence and worship it.</p>
+          </div>
+<div type="textpart" subtype="section" n="9">
+<p>Now the wild sow of Krommyon, whom they called 1 <lb/>
+            Phaia, was no ordinary beast, but a fierce creature and <lb/>
+            hard to conquer. This animal he turned out of his way <lb/>
+            to destroy, that it might not be thought that he performed <lb/>
+            his exploits of necessity. Besides, he said, a brave man <lb/>
+             <pb n="7"/>
+            need only punish wicked men when they came in his <lb/>
+            way, but that in the case of wild beasts he must himself <lb/>
+            seek them out and attack them. Some say that Phaia <lb/>
+            was a murderous and licentious woman who carried on <lb/>
+            brigandage at Krommyon, and was called a sow from her <lb/>
+            life and habits, and that Theseus put her to death.</p>
+          </div>
+<div type="textpart" subtype="section" n="10">
+<p>Before coming to Megara he slew Skeiron by flinging <lb/>
+            him down a precipice into the sea, so the story runs, <lb/>
+            because he was a robber, but some say that from arrogance <lb/>
+            he used to hold out his feet to strangers and bid them <lb/>
+            wash them, and that then he kicked the washers into the <lb/>
+            sea. But Megarian writers, in opposition to common <lb/>
+            tradition, and, as Simonides says, “ warring with all <lb/>
+            antiquity," say that Skeiron was not an arrogant brigand, <lb/>
+            but repressed brigandage, loved those who were good and <lb/>
+            just, and was related to them. For, they point out, Æakus <lb/>
+            is thought to have been the most righteous of all the <lb/>
+            Greeks, and Kychreus of Salamis was worshipped as a <lb/>
+            god, and the virtue of Peleus and Telamon is known to <lb/>
+            all. Yet Skeiron was the son-in-law of Kychreus, and <lb/>
+            father-in-law of Æakus, and grandfather of Peleus and <lb/>
+            Telamon, who were both of them sons of Endeis, the <lb/>
+            daughter of Skeiron and his wife Chariklo. It is not then <lb/>
+            reasonable to suppose that these, the noblest men of their <lb/>
+            time, would make alliances with a malefactor, and give <lb/>
+            and receive from him what they prized most dearly. But <lb/>
+            they say that Theseus slew Skeiron, not when he first <lb/>
+            went to Athens, but that afterwards he took the town of <lb/>
+            Eleusis which belonged to the Megarians, by dealing <lb/>
+            treacherously with Dickies, who was the chief magistrate <lb/>
+            there, and that on that occasion he killed Skeiron. This <lb/>
+            is what tradition says on both sides.</p>
+          </div>
+<div type="textpart" subtype="section" n="11">
+<p>At Eleusis Theseus overcame Kerkyon of Arcadia in <lb/>
+            wrestling and killed him, and after journeying a little farther <lb/>
+            he killed Damastes, who was surnamed Prokroustes, by com­ <lb/>
+            pelling him to fit his own body to his bed, just as he used <lb/>
+            to fit the bodies of strangers to it. This he did in imita­ <lb/>
+            tion of Herakles ; for he used to retort upon his aggressors <lb/>
+            the same treatment which they intended for him. Thus <lb/>
+            Herakles offered up Busiris as a sacrifice, and overcame <lb/>
+            Antæus in wrestling, and Kyknus in single combat, and <lb/>
+             <pb n="8"/>
+            killed Termerus by breaking his skull. This is, they say, <lb/>
+            the origin of the proverb, “ A Termerian mischief," for <lb/>
+            Termerus, it seems, struck passers-by with his head, and <lb/>
+            so killed them. So also did Theseus sally forth and <lb/>
+            chastise evildoers, making them undergo the same cruelties <lb/>
+            which they practised on others, thus justly punishing <lb/>
+            them for their crimes in their own wicked fashion.</p>
+          </div>
+<div type="textpart" subtype="section" n="12">
+<p>As he proceeded on his way, and reached the <lb/>
+            river Kephisus, men of the Phytalid race were the first to <lb/>
+            meet and greet him. He demanded to be purified from <lb/>
+            the guilt of bloodshed, and they purified him, made pro­ <lb/>
+            pitiatory offerings, and also entertained him in their <lb/>
+            houses, being the first persons from whom he had received <lb/>
+            any kindness on his journey. It is said to have been on <lb/>
+            the eighth day of the month Kronion, which is now called <lb/>
+            Hekatombeion, that he came to his own city. On entering <lb/>
+            it he found public affairs disturbed by factions, and the <lb/>
+            house of Ægeus in great disorder; for Medea, who had <lb/>
+            been banished from Corinth, was living with Ægeus, and <lb/>
+            had engaged by her drugs to enable Ægeus to have <lb/>
+            children. She was the first to discover who Theseus was, <lb/>
+            while Ægeus, who was an old man, and feared every one <lb/>
+            because of the disturbed state of society, did not recognise <lb/>
+            him. Consequently she advised Ægeus to invite him to a <lb/>
+            feast. that she might poison him. Theseus accordingly <lb/>
+            came to Ægeus's table. He did not wish to be the first to <lb/>
+            tell his name, but, to give his father an opportunity of <lb/>
+            recognising him, he drew his sword, as if he meant to cut <lb/>
+            some of the meat with it, and showed it to Ægeus. <lb/>
+            Ægeus at once recognised it, overset the cup of poison, <lb/>
+            looked closely at his son and embraced him. He then <lb/>
+            called a public meeting and made Theseus known as his <lb/>
+            son to the citizens, with whom he was already very popular <lb/>
+            because of his bravery. It is said that when the cup was <lb/>
+            overset the poison was spilt in the place where now there <lb/>
+            is the enclosure in the Delphinium, for there Ægeus dwelt; <lb/>
+            and the Hermes to the east of the temple there they call <lb/>
+            the one who is “ at the door of Ægeus.”</p>
+          </div>
+<div type="textpart" subtype="section" n="13">
+<p>But the sons of Pallas, who had previously to <lb/>
+            this expected that they would inherit the kingdom on the <lb/>
+            death of Ægeus without issue, now that Theseus was <lb/>
+             <pb n="9"/>
+            declared the heir, were much enraged, first that Ægeus <lb/>
+            should be king, a man who was merely an adopted child <lb/>
+            of Pandion, and had no blood relationship to Erechtheus, <lb/>
+            and next that Theseus, a stranger and a foreigner, should <lb/>
+            inherit the kingdom. They consequently declared war. <lb/>
+            Dividing themselves into two bodies, the one proceeded to <lb/>
+            march openly upon the city from Sphettus, under the com­ <lb/>
+            mand of PaRas their father, while the other lay in ambush <lb/>
+            at Gargettus, in order that they might fall upon their <lb/>
+            opponents on two sides at once. But there was a herald <lb/>
+            among them named Leos, of the township of Agnus, who <lb/>
+            betrayed the plans of the sons of Pallas to Theseus. He <lb/>
+            suddenly. attacked those who were in ambush, and killed <lb/>
+            them all, hearing which the other body under Pallas <lb/>
+            dispersed. From this time forth they say that the town­ <lb/>
+            ship of Pallene has never intermarried with that of Agnus, <lb/>
+            and that it is not customary amongst them for heralds to <lb/>
+            begin a proclamation with the words " Acouete Leo," <lb/>
+            (Oyez) for they hate the name of Leo* because of the <lb/>
+            treachery of that man.</p>
+          </div>
+<div type="textpart" subtype="section" n="14">
+<p>Now Theseus, who wished for employment, and <lb/>
+            also to make himself popular with the people, went to <lb/>
+            attack the Lull of Marathon, who had caused no little <lb/>
+            trouble to the inhabitants of Tetrapolis. He overcame <lb/>
+            the beast, and drove it alive through the city for all men <lb/>
+            to see, and then sacrificed it to Apollo of Delphi. Hekale, <lb/>
+            too, and the legend of her having entertained Theseus, does <lb/>
+            not seem altogether without foundation in fact; for the <lb/>
+            people of the neighbouring townships used to assemble and <lb/>
+            perform what was called the Hekalesian sacrifice to Zeus <lb/>
+            Hekalus, and they also used to honour Hekale, calling her <lb/>
+            by the affectionate diminutive Hekaline, because she also, <lb/>
+            when feasting Theseus, who was very young, embraced <lb/>
+            him in a motherly way, and used such like endearing <lb/>
+            diminutives. She also made a vow on Theseus's behalf, <lb/>
+            when he was going forth to battle, that if he returned <lb/>
+            safe she would sacrifice to Zeus; but as she died before he <lb/>
+            returned, she had the above-mentioned honours instituted <lb/>
+            by command of Theseus, as a grateful return for her <lb/>
+            hospitality. This is the legend as told by Philochorus. <note type="footnote"> * The Greek word leos signifies people. </note> <pb n="10"/>
+            </p>
+          </div>
+<div type="textpart" subtype="section" n="15">
+<p>Shortly after this the ship from Crete arrived for <lb/>
+            the third time to collect the customary tribute. Most <lb/>
+            writers agree that the origin of this was, that on the death <lb/>
+            of Androgens, in Attica, which was ascribed to treachery, <lb/>
+            his father Minos went to war, and wrought much evil to <lb/>
+            the country, which at the same time was afflicted by <lb/>
+            scourges from Heaven (for the land did not bear fruit, and <lb/>
+            there was a great pestilence and the rivers sank into the <lb/>
+            earth). So that as the oracle told the Athenians that, if <lb/>
+            they propitiated Minos and came to terms with him, the <lb/>
+            anger of Heaven would cease and they should have a <lb/>
+            respite from their sufferings, they sent an embassy to <lb/>
+            Minos and prevailed on him to make peace, on the con­ <lb/>
+            dition that every nine years they should send him a <lb/>
+            tribute of seven youths and seven maidens. The most <lb/>
+            tragic of the legends states these poor children when they <lb/>
+            reached Crete were thrown into the Labyrinth, and there <lb/>
+            either were devoured by the Minotaur or else perished with <lb/>
+            hunger, being unable to find the way out. The Minotaur, <lb/>
+            as Euripides tells us, was <lb/>
+            " A form commingled, and a monstrous birth, <lb/>
+            Half man, half bull, in twofold shape combined."</p>
+          </div>
+<div type="textpart" subtype="section" n="16">
+<p>Philochorus says that the Cretans do not recog­ <lb/>
+            nise this story, but say that the Labyrinth was merely a <lb/>
+            prison, like any other, from which escape was impossible, <lb/>
+            and that Minos instituted gymnastic games in honour of <lb/>
+            Androgeus, in which the prizes for the victors were these <lb/>
+            children, who till then were kept in the Labyrinth. Also <lb/>
+            they say that the victor in the first contest was a man of <lb/>
+            great power in the state, a general of the name of Taurus, <lb/>
+            who was of harsh and savage temper, and ill-treated the <lb/>
+            Athenian children. And Aristotle himself, in his treatise <lb/>
+            on the constitution of the Bottiæans, evidently does not <lb/>
+            believe that the children were put to death by Minos, but <lb/>
+            that they lived in Crete as slaves, until extreme old age; <lb/>
+            and that one day the Cretans, in performance of an ancient <lb/>
+            vow, sent first-fruits of their population to Delphi. Among <lb/>
+            those who were thus sent were the descendants of the <lb/>
+            Athenians, and, as they could not maintain themselves <lb/>
+            there, they first passed over to Italy, and there settled <lb/>
+             <pb n="11"/>
+            near Iapygium, and from thence again removed to Thrace, <lb/>
+            and took the name of Bottiæans. For this reason, the <lb/>
+            Bottiæan maidens when performing a certain sacrifice <lb/>
+            sing “ Let us go to Athens." Thus it seems to be a terrible <lb/>
+            thing to incur the hatred of a city powerful in speech and <lb/>
+            song ; for on the Attic stage Minos is always vilified and <lb/>
+            traduced, and though he was called “ Most Kingly " by <lb/>
+            Hesiod, and “ Friend of Zeus " by Homer, it gained him no <lb/>
+            credit, but the playwrights overwhelmed him with abuse, <lb/>
+            styling him cruel and violent. And yet Minos is said to <lb/>
+            have been a king and a lawgiver, and Rhadamanthus to <lb/>
+            have been a judge under him, carrying out his decrees.</p>
+          </div>
+<div type="textpart" subtype="section" n="17">
+<p>So when the time of the third payment of the <lb/>
+            tribute arrived, and those fathers who had sons not yet <lb/>
+            grown up had to submit to draw lots, the unhappy people <lb/>
+            began to revile Ægeus, complaining that he, although the <lb/>
+            author of this calamity, yet took no share in their afflic­ <lb/>
+            tion, but endured to see them left childless, robbed of <lb/>
+            their own legitimate offspring, while he made a foreigner <lb/>
+            and a bastard the heir to his kingdom. This vexed <lb/>
+            Theseus, and determining not to hold aloof, but to share the <lb/>
+            fortunes of the people, he came forward and offered himself <lb/>
+            without being drawn by lot. The people all admired <lb/>
+            his courage and patriotism, and Ægeus finding that his <lb/>
+            prayers and entreaties had no effect on his unalterable <lb/>
+            resolution, proceeded to choose the rest by lot. Hellanikus <lb/>
+            says that the city did not select the youths and maidens <lb/>
+            by lot, but that Minos himself came thither and chose <lb/>
+            them, and that he picked out Theseus first of all, upon <lb/>
+            the usual conditions, which were that the Athenians <lb/>
+            should furnish a ship, and that the youths should embark <lb/>
+            in it and sail with him, not carrying with them any <lb/>
+            weapon of war; and that when the Minotaur was slain, <lb/>
+            the tribute should cease. Formerly, nO one had any hope <lb/>
+            of safety; so they used to send out the ship with a black <lb/>
+            sail, as if it were going to a certain doom; but now <lb/>
+            Theseus so encouraged his father, and boasted that he <lb/>
+            would overcome the Minotaur, that he gave a second sail, <lb/>
+            a white one, to the steersman, and charged him on his <lb/>
+            return, if Theseus were safe, to hoist the white one, if not, <lb/>
+            the black one as a sign of mourning. But Simonides says <lb/>
+             <pb n="12"/>
+            that it was not a white sail which was given by Ægeus, <lb/>
+            but " a scarlet sail embrued in holm oak's juice," and that <lb/>
+            this was agreed on by him as the signal of safety. The <lb/>
+            ship was steered by Phereklus the son of Amarsyas, <lb/>
+            according to Simonides.</p>
+          <p>But Philochorus says that Theseus had one Nausithous <lb/>
+            sent him from Skirus of Salamis, to steer the ship, and <lb/>
+            Phæax to act as look-out, as the Athenians had not yet <lb/>
+            turned their attention to the sea.</p>
+          <p>One of the youths chosen by lot was Menestheos the <lb/>
+            son of Skirus's daughter. The truth of this account is <lb/>
+            attested by the shrines of Nausithous and Phæax, which <lb/>
+            Theseus built at Phalerum, and by the feast called the <lb/>
+            Kybernesia or pilot's festival, which is held in their <lb/>
+            honour.</p>
+          </div>
+<div type="textpart" subtype="section" n="18">
+<p>When the lots were drawn Theseus brought the <lb/>
+            chosen youths from the Prytaneum, and proceeding to the <lb/>
+            temple of the Delphian Apollo, offered the suppliants' <lb/>
+            bough to Apollo on their behalf. This was a bough of <lb/>
+            the sacred olive-tree bound with fillets of white wool. <lb/>
+            And after praying he went to sea on the sixth day of the <lb/>
+            month Munychion, on which day even now they send <lb/>
+            maidens as suppliants to the temple of the Delphian <lb/>
+            Apollo. And there is a legend that the Delphian oracle <lb/>
+            told him that Aphrodite would be his guide and fellow­ <lb/>
+            traveller, and that when he was sacrificing a she-goat to <lb/>
+            her by the seaside, it became a he-goat; wherefore the <lb/>
+            goddess is called Epitragia.</p>
+          </div>
+<div type="textpart" subtype="section" n="19">
+<p>When they reached Crete, according to most <lb/>
+            historians and poets, Ariadne fell in love with him, and <lb/>
+            from her he received the clue of string, and was taught <lb/>
+            how to thread the mazes of the Labyrinth. He slew the <lb/>
+            Minotaur, and, taking with him Ariadne and the youths, <lb/>
+            sailed away. Pherekydes also says that Theseus also <lb/>
+            knocked out the bottoms of the Cretan ships, to prevent <lb/>
+            pursuit. But Demon says that Taurus, Minos's general, <lb/>
+            was slain in a sea-fight in the harbour, when Theseus <lb/>
+            sailed away. But according to Philochorus, when Minos <lb/>
+            instituted his games, Taurus was expected to win every <lb/>
+            prize, and was grudged this honour; for his great influence <lb/>
+            and his unpopular manners made him disliked, and soandal <lb/>
+             <pb n="13"/>
+            said, that he was too intimate with Pasiphae. On this <lb/>
+            account, when Theseus offered to contend with him, Minos <lb/>
+            agreed. And, as it was the custom in Crete for women as <lb/>
+            well as men to be spectators of the games, Ariadne was <lb/>
+            present, and was struck with the appearance of Theseus, <lb/>
+            and his strength, as he conquered all competitors. Minos <lb/>
+            was especially pleased, in the wrestling match, at Taurus's <lb/>
+            defeat and shame, and, restoring the children to Theseus, <lb/>
+            remitted the tribute for the future. Kleidemus tells the <lb/>
+            story in his own fashion and at unnecessary length, be­ <lb/>
+            ginning much farther back. There was, he says, a <lb/>
+            decree passed by all the Greeks, that no ship should sail <lb/>
+            from any post with more than five hands on board, but <lb/>
+            Jason alone, the master of the great ship Argo, should <lb/>
+            cruise about, and keep the sea free of pirates. Now when <lb/>
+            Daedalus fled to Athens, Minos, contrary to the decree, <lb/>
+            pursued him in long war galleys, and being driven to <lb/>
+            Sicily by a storm, died there. When his son Deukalion <lb/>
+            sent a warlike message to the Athenians, bidding them <lb/>
+            give up Daedalus to him, or else threatening that he <lb/>
+            would put to death the children whom Minos had taken <lb/>
+            as hostages, Theseus returned him a gentle answer, beg­ <lb/>
+            ging for the life of Dædalus, who was his own cousin <lb/>
+            and blood relation, being the son of Merope, the daughter <lb/>
+            of Erechtheus. But he busied himself with building a <lb/>
+            fleet, some of it in Attica, in the country of the Thymai­ <lb/>
+            tadae, far from any place of resort of strangers, and some <lb/>
+            in Trœzen, under the management of Pittheus, as he did <lb/>
+            not wish his preparations to be known. But when the <lb/>
+            ships were ready to set sail, having with him as pilots, <lb/>
+            Dædalus himself and some Cretan exiles, as no one <lb/>
+            knew that he was coming, and the Cretans thought that it <lb/>
+            was a friendly fleet that was advancing, he seized the <lb/>
+            harbour, and marched at once to Knossus before his arrival <lb/>
+            was known. Then he fought a battle at the gates of the <lb/>
+            Labyrinth, and slew Deukalion and his body-guard. As <lb/>
+            Ariadne now succeeded to the throne, he made peace with <lb/>
+            her, took back the youths, and formed an alliance between <lb/>
+            the Cretans and the Athenians, in which each nation <lb/>
+            swore that it would not begin a war against the other.</p>
+          </div>
+<div type="textpart" subtype="section" n="20">
+<p>There are many more stories about these events, <lb/>
+             <pb n="14"/>
+            and about Ariadne, none of which agree in any particulars. <lb/>
+            Some say that she hanged herself when deserted by <lb/>
+            Theseus, and some, that she was taken to Naxos by his <lb/>
+            sailors, and there dwelt with Œnarus, the priest of <lb/>
+            Dionysus, having been deserted by Theseus, who was in <lb/>
+            love with another. <lb/>
+            “ For Ægle's love disturbed his breast." <lb/>
+            This line, we are told by Hereas of Megara, was struck <lb/>
+            out of Hesiod's poems by Peisistratus ; and again he says <lb/>
+            that he inserted into Homer's description of the Shades, <lb/>
+            a Peirithous and Theseus, born of gods," <lb/>
+            to please the Athenians. Some writers say that Theseus <lb/>
+            had by Ariadne two sons, Staphylus and Œnopion, whom <lb/>
+            Ion of Chios follows when he speaks of his own native <lb/>
+            city as that <lb/>
+            " Which erst (Enopion stablished, Theseus' son." <lb/>
+            The pleasantest of these legends are in nearly every one's <lb/>
+            mouth. But Pæon of Amathus gives an account peculiar to <lb/>
+            himself, that Theseus was driven by a storm to Cyprus, <lb/>
+            and that Ariadne, who was pregnant, suffered much from <lb/>
+            the motion of the ship, and became so ill, that she was set <lb/>
+            on shore, but Theseus had to return to take charge of the <lb/>
+            ship, and was blown off to sea. The women of the country <lb/>
+            took care of Ariadne, and comforted her in her bereave­ <lb/>
+            ment, even bringing forged letters to her as if from <lb/>
+            Theseus, and rendering her assistance during her confine­ <lb/>
+            ment ; and when she died in childbirth, they buried her. <lb/>
+            Theseus, on his return, grieved much, and left money to <lb/>
+            the people of the country, bidding them sacrifice to <lb/>
+            Ariadne; he also set up two little statues, one of silver, <lb/>
+            and the other of brass. And at this sacrifice, which takes <lb/>
+            place on the second day of the month Gorpiæus, one of the <lb/>
+            young men lies down on the ground, and imitates the cries <lb/>
+            of a woman in travail; and the people of Amathus call <lb/>
+            that the grove of Ariadne Aphrodite, in which they show <lb/>
+            her tomb.</p>
+          <p>But some writers of Naxos tell a different story, peculiar <lb/>
+            to themselves, that there were two Minoses and two <lb/>
+             <pb n="15"/>
+            Ariadnes, of whom one, they say, was married to Dionysus <lb/>
+            in Naxos, and was the mother of Staphylus and his brother, <lb/>
+            while the younger was carried off by Theseus, and came <lb/>
+            to Naxos after he deserted her; and a nurse called Korkyne <lb/>
+            came with her, whose tomb they point out. Then Naxians <lb/>
+            also says that this Ariadne died there, and is honoured, <lb/>
+            but not so much as the elder; for at the feast in honour <lb/>
+            of the elder, there are merriment and revelry, but at that <lb/>
+            of the younger gloomy rites are mingled with mirth.</p>
+          </div>
+<div type="textpart" subtype="section" n="21">
+<p>Theseus, when he sailed away from Croto, touched <lb/>
+            at Delos ; here he sacrificed to the god and offered up the <lb/>
+            statue of Aphrodite, which Ariadne had given him; and <lb/>
+            besides this, he and the youths with him danced a measure <lb/>
+            which they say is still practised by the people of Delos to <lb/>
+            this day, being an imitation of the turnings and windings <lb/>
+            of the Labyrinth expressed by complicated evolutions per­ <lb/>
+            formed in regular order. This kind of dance is called by <lb/>
+            the Delians “ the crane dance," according to Diksearchus. <lb/>
+            It was danced round the altar of the Horns, which is all <lb/>
+            formed of horns from the left side. They also say that he <lb/>
+            instituted games at Delos, and that then for the first time <lb/>
+            a palm was given by him to the victor.</p>
+          </div>
+<div type="textpart" subtype="section" n="22">
+<p>As he approached Attica, both he and his steers­ <lb/>
+            man in their delight forgot to hoist the sail which was to <lb/>
+            be a signal of their safety to Ægeus ; and he in his despair <lb/>
+            flung himself down the cliffs and perished. Theseus, as <lb/>
+            soon as he reached the harbour, performed at Phalerum <lb/>
+            the sacrifices which he had vowed to the gods if he re­ <lb/>
+            turned safe, and sent off a herald to the city with the news <lb/>
+            of his safe return. This man met with many who were <lb/>
+            lamenting the death of the king, and, as was natural, with <lb/>
+            others who were delighted at the news of their safety, and <lb/>
+            who congratulated him and wished to crown him with <lb/>
+            garlands. These he received, but placed them on his <lb/>
+            herald's staff, and when he came back to the seashore, <lb/>
+            finding that Theseus had not completed his libation, he <lb/>
+            waited outside the temple, not wishing to disturb the <lb/>
+            sacrifice. When the libation was finished he announced <lb/>
+            the death of Ægeus, and then they all hurried up to the <lb/>
+            city with loud lamentations: wherefore to this day, at <lb/>
+            the Oschophoria, they say that it is not the herald that is <lb/>
+             <pb n="16"/>
+            crowned, but his staff, and that at the libations the by­ <lb/>
+            standers cry out, “Eleleu, Iou, Iou;" of which cries the <lb/>
+            first is used by men in haste, or raising the paean for <lb/>
+            battle, while the second is used by persons in surprise and <lb/>
+            trouble.</p>
+          <p>Theseus, after burying his father, paid his vow to <lb/>
+            Apollo, on the seventh day of the month Pyanepsion; for <lb/>
+            on this day it was that the rescued youths went up into <lb/>
+            the city. The boiling of pulse, which is customary on <lb/>
+            this anniversary, is said to be done because the rescued <lb/>
+            youths put what remained of their pulse together into one <lb/>
+            pot, boiled it all, and merrily feasted on it together. And <lb/>
+            on this day also, the Athenians carry about the Eiresione, <lb/>
+            a bough of the olive tree garlanded with wool, just as <lb/>
+            Theseus had before carried the suppliants' bough, and <lb/>
+            covered with first-fruits of all sorts of produce, because the <lb/>
+            barrenness of the land ceased on that day; and they sing, <lb/>
+            “ Eiresione, bring us figs <lb/>
+            And wheaten loaves, and oil, <lb/>
+            And wine to quaff, that we may all <lb/>
+            Rest merrily from toil."</p>
+          <p>However, some say that these ceremonies are performed <lb/>
+            in memory of the Herakleidæ, who were thus entertained <lb/>
+            by the Athenians; but most writers tell the tale as I have <lb/>
+            told it.</p>
+          </div>
+<div type="textpart" subtype="section" n="23">
+<p>Now the thirty-oared ship, in which Theseus <lb/>
+            sailed with the youths, and came back safe, was kept by <lb/>
+            the Athenians up to the time of Demetrius Phalereus. <lb/>
+            They constantly removed the decayed part of her timbers. <lb/>
+            and renewed them with sound wood, so that the ship <lb/>
+            became an illustration to philosophers of the doctrine of <lb/>
+            growth and change, as some argued that it remained the <lb/>
+            same, and others, that it did not remain the same. The <lb/>
+            feast of the Oschophoria, or of carrying boughs, which to <lb/>
+            this day the Athenians celebrate, was instituted by <lb/>
+            Theseus. For he did not take with him all the maidens <lb/>
+            who were drawn by lot, but he chose two youths, his <lb/>
+            intimate friends, who were feminine and fair to look upon, <lb/>
+            but of manly spirit; those by warm baths and avoiding <lb/>
+            the heat of the sun and careful tending of their hair and <lb/>
+             <pb n="17"/>
+            skin he completely metamorphosed, teaching them to <lb/>
+            imitate the voice and carriage and walk of maidens. <lb/>
+            These two were then substituted in the place of two of <lb/>
+            the girls, and deceived every one; and when they re­ <lb/>
+            turned, he and these two youths walked in procession, <lb/>
+            dressed as now those who carry boughs at the Oschophoria <lb/>
+            are dressed. They carry them in honour of Dionysus and <lb/>
+            Ariadne, because of the legend, or rather because they <lb/>
+            returned home when the harvest was being gathered in. <lb/>
+            And the women called supper-carriers join in carrying <lb/>
+            them and partake of the sacrifice, in imitation of the <lb/>
+            mothers of those who were drawn by lot; for they used <lb/>
+            continually to bring their children food. Also, old tales <lb/>
+            are told, because these women used to tell their children <lb/>
+            such ones, to encourage and amuse them.</p>
+          <p>These things are related by the historian Demus. <lb/>
+            Moreover, a sacred enclosure was dedicated to Theseus, <lb/>
+            and those families out of whom the tribute of the children <lb/>
+            had been gathered were bidden to contribute to sacrifices <lb/>
+            to him. These sacrifices were presided over by the <lb/>
+            Phytalidæ, which post Theseus bestowed upon them as a <lb/>
+            recompense for their hospitality towards him.</p>
+          </div>
+<div type="textpart" subtype="section" n="24">
+<p>After the death of Ægeus, Theseus conceived a <lb/>
+            great and important design. He gathered together all <lb/>
+            the inhabitants of Attica and made them citizens of one <lb/>
+            city, whereas before they had lived dispersed, so as to be <lb/>
+            hard to assemble together for the common weal, and at <lb/>
+            times even fighting with one another.</p>
+          <p>He visited all the villages and tribes, and won their <lb/>
+            consent; the poor and lower classes gladly accepting his <lb/>
+            proposals, while he gained over the more powerful by <lb/>
+            promising that the new constitution should not include a <lb/>
+            king, but that it should be a pure commonwealth, with <lb/>
+            himself merely acting as general of its army and guardian <lb/>
+            of its laws, while in other respects it would allow perfect <lb/>
+            freedom and equality to every one. By these arguments <lb/>
+            he convinced some of them, and the rest knowing his <lb/>
+            power and courage chose rather to be persuaded than <lb/>
+            forced into compliance. He therefore destroyed the pry­ <lb/>
+            taneia, the senate house, and the magistracy of each <lb/>
+            individual township, built one common prytaneum and <note type="footnote"> a </note> <lb/>
+             <pb n="18"/>
+            senate house for them all on the site of the present <lb/>
+            acropolis, called the city Athens, and instituted the <lb/>
+            Panathenaic festival common to all of them. He also <lb/>
+            instituted a festival for the resident aliens, on the six­ <lb/>
+            teenth of the month, Hekatombeion, which is still kept <lb/>
+            up. And having, according to his promise, laid down his <lb/>
+            sovereign power, he arranged the new constitution under <lb/>
+            the auspices of the gods ; for he made inquiry at Delphi <lb/>
+            as to how he should deal with the city, and received the <lb/>
+            following answer: <lb/>
+            “ Thou son of Ægeus and of Pittheus’ maid, <lb/>
+            My father hath within thy city laid <lb/>
+            The bounds of many cities ; weigh not down <lb/>
+            Thy soul with thought; the bladder cannot drown."</p>
+          <p>The same thing they say was afterwards prophesied by <lb/>
+            the Sibyl concerning the city, in these words : <lb/>
+            " The bladder may be dipped, but cannot drown."</p>
+          </div>
+<div type="textpart" subtype="section" n="25">
+<p>Wishing still further to increase the number of <lb/>
+            his citizens, he invited all strangers to come and share <lb/>
+            equal privileges, and they say that the words now used, <lb/>
+            " Come hither all ye peoples," was the proclamation then <lb/>
+            used by Theseus, establishing as it were a commonwealth <lb/>
+            of all natiors. But he did not permit his state to fall <lb/>
+            into the disorder which this influx of all kinds of people <lb/>
+            would probably have produced, but divided the people into <lb/>
+            three classes, of Eupatridæ or nobles, Geomori or farmers, <lb/>
+            Demiurgi or artisans. To the Eupatridæ he assigned the <lb/>
+            care of religious rites, the supply of magistrates for the <lb/>
+            city, and the interpretation of the laws and customs sacred <lb/>
+            or profane, yet he placed them on an equality with the <lb/>
+            other citizens, thinking that the nobles would always excel <lb/>
+            in dignity, the farmers in usefulness, and the artisans in <lb/>
+            numbers. Aristotle tells us that he was the first who <lb/>
+            inclined to democracy, and gave up the title of king ; and <lb/>
+            Homer seems to confirm this view by speaking of the <lb/>
+            people of the Athenians alone of all the states men­ <lb/>
+            tioned in his catalogue of ships. Theseus also struck <lb/>
+            money with the figure of a bull, either alluding to the <lb/>
+            bull of Marathon, or Taurus, Minos' general, or else to <lb/>
+             <pb n="19"/>
+            encourage farming among the citizens. Hence they say <lb/>
+            came the words, " worth ten," or " worth a hundred oxen." <lb/>
+            He permanently annexed Megara to Attica, and set up the <lb/>
+            famous pillar on the Isthmus, on which he wrote the <lb/>
+            distinction between the countries in two trimeter lines, of <lb/>
+            which the one looking east says, <lb/>
+            “ This is not Peloponnesus, but Ionia, <lb/>
+            and the one looking west says, <lb/>
+            “ This is Peloponnesus, not Ionia." <lb/>
+            And also he instituted games there, in emulation of <lb/>
+            Herakles; that, just as Herakles had ordained that the <lb/>
+            Greeks should celebrate the Olympic games in honour <lb/>
+            of Zeus, so by Theseus's appointment they should celebrate <lb/>
+            the Isthmian games in honour of Poseidon.</p>
+          <p>The festival which was previously established there in <lb/>
+            honour of Melikerta used to be celebrated by night, and to <lb/>
+            be more like a religious mystery than a great spectacle and <lb/>
+            gathering. Some writers assert that the Isthmian games <lb/>
+            were established in honour of Skeiron, and that Theseus <lb/>
+            wished to make them an atonement for the murder of his <lb/>
+            kinsman; for Skeiron was the son of Kanethus and of <lb/>
+            Henioche the daughter of Pittheus. Others say that this <lb/>
+            festival was established in honour of Sinis, not of Skeiron. <lb/>
+            Be this as it may, Theseus established it, and stipulated <lb/>
+            with the Corinthians that visitors from Athens who came <lb/>
+            to the games should have a seat of honour in as large a space <lb/>
+            as could be covered by a sail of the public ship which <lb/>
+            carried them, when stretched out on the ground. This <lb/>
+            we are told by Hellanikus and Andron of Halikarnassus.</p>
+          </div>
+<div type="textpart" subtype="section" n="26">
+<p>Besides this, according to Philochorus and other <lb/>
+            writers, he sailed with Herakles to the Euxine, took part <lb/>
+            in the campaign against the Amazons, and received <lb/>
+            Antiope as the reward for his valour; but most historians, <lb/>
+            among whom are Pherekydes, Hellanikus, and Herodorus, <lb/>
+            say that Theseus made an expedition of his own later than <lb/>
+            that of Herakles, and that he took the Amazon captive, <lb/>
+            which is a more reasonable story. For no one of his <lb/>
+            companions is said to have captured an Amazon; while <note type="footnote"> c 2 </note> <lb/>
+             <pb n="20"/>
+            Bion relates that he caught this one by treachery and <lb/>
+            carried her off; for the Amazons, he says, were not averse <lb/>
+            to men, and did not avoid Theseus when he touched at <lb/>
+            their coast, but even offered him presents. He invited <lb/>
+            the bearer of these on board his ship ; and when she had <lb/>
+            embarked he set sail. But one, Menekrates, who has <lb/>
+            written a history of the town of Nikæa in Bithynia, states <lb/>
+            that Theseus spent a long time in that country with <lb/>
+            Antiope, and that there were three young Athenians, <lb/>
+            brothers, who were his companions in arms, by name <lb/>
+            Euneon, Thoas, and Soloeis. Soloeis fell in love with <lb/>
+            Antiope, and, without telling his brothers, confided his <lb/>
+            passion to one of his comrades. This man laid the mat­ <lb/>
+            ter before Antiope, who firmly rejected his pretensions, <lb/>
+            but treated him quietly and discreetly, telling Theseus <lb/>
+            nothing about it. Soloeis, in despair at his rejection, <lb/>
+            leaped into a river and perished; and Theseus then at <lb/>
+            length learned the cause of the young man's death. In <lb/>
+            his sorrow he remembered and applied to himself an <lb/>
+            oracle he had received from Delphi. It had been enjoined <lb/>
+            upon him by the Pythia that whenever he should be <lb/>
+            struck down with special sorrow in a foreign land, <lb/>
+            he should found a city in that place and leave some of <lb/>
+            his companions there as its chiefs. In consequence of <lb/>
+            this the city which he founded was called Pythopolis, in <lb/>
+            honour of the Pythian Apollo, and the neighbouring river <lb/>
+            was called Soloeis, after the youth who died in it. He <lb/>
+            left there the brothers of Soloeis as the chiefs and law­ <lb/>
+            givers of the new city, and together, with them one <lb/>
+            Hermus, an Athenian Eupatrid. In consequence of this, <lb/>
+            the people of Pythopolis call a certain place in thoir city <lb/>
+            the house of Hermes, by a mistaken accentuation transfer­ <lb/>
+            ring the honour due to their founder, to their god Hermes.</p>
+          </div>
+<div type="textpart" subtype="section" n="27">
+<p>This was the origin of the war with the <lb/>
+            Amazons; and it seems to have been carried on in no <lb/>
+            feeble or womanish spirit, for they never could have <lb/>
+            encamped in the city nor have fought a battle close to <lb/>
+            the Pnyx and the Museum unless they had conquered the <lb/>
+            rest of the country, so as to be able to approach the city <lb/>
+            safely. It is hard to believe, as Hellanikus relates, that <lb/>
+            they crossed the Cimmerian Bosphorus on the ice; but <lb/>
+             <pb n="21"/>
+            that they encamped almost in the city is borne witness <lb/>
+            to by the local names, and by the tombs of the fallen. <lb/>
+            For a long time both parties held aloof, unwilling to <lb/>
+            engage; but at last Theseus, after sacrificing to Phobos <lb/>
+            (Fear), attacked them. The battle took place in the <lb/>
+            month Boedromion, on the day on which the Athenians <lb/>
+            celebrate the feast Boedromia. Kleidemus gives us accurate <lb/>
+            details, stating that the left wing of the Amazons stood <lb/>
+            at the place now called the Amazoneum, while the right <lb/>
+            reached up to the Pnyx, at the place where the gilded <lb/>
+            figure of Victory now stands. The Athenians attacked <lb/>
+            them on this side, issuing from the Museum, and the <lb/>
+            tombs of the fallen are to be seen along the street <lb/>
+            which leads to the gate near the shrine of the hero <lb/>
+            Chalkodus, which is called the Peiræic gate. On this side <lb/>
+            the women forced them back as far as the temple of the <lb/>
+            Eumenides, but on the other side those who assailed them <lb/>
+            from the temple of Pallas, Ardettus, and the Lyceum, <lb/>
+            drove their right wing in confusion back to their camp <lb/>
+            with great slaughter. In the fourth month of the war <lb/>
+            a peace was brought about by Hippolyte; for this writer <lb/>
+            names the wife of Theseus Hippolyte, not Antiope. Some <lb/>
+            relate that she was slain fighting by the side of Theseus <lb/>
+            by a javelin hurled by one Molpadia, and that the column <lb/>
+            which stands beside the temple of Olympian Earth is <lb/>
+            sacred to her memory. It is not to be wondered at that <lb/>
+            history should be at fault when dealing with such ancient <lb/>
+            events as these, for there is another story at variance <lb/>
+            with this, to the effect that Antiope caused the wounded <lb/>
+            Amazons to be secretly transported to Chalkis, where they <lb/>
+            were taken care of, and some of them were buried there, <lb/>
+            at what is now called the Amazoneum. However, it is <lb/>
+            a proof of the war having ended in a treaty of peace, that <lb/>
+            the place near the temple of Theseus where they swore <lb/>
+            to observe it, is still called Horcomosium, and that the <lb/>
+            sacrifice to the Amazons always has taken place before the <lb/>
+            festival of Theseus. The people of Megara also show a <lb/>
+            burying-place of the Amazons, as one goes from the <lb/>
+            market-place to what they call Rhus, where the lozenge­ <lb/>
+            shaped building stands. It is said that some others died <lb/>
+            at Chaeronea, and were buried bv the little stream which <lb/>
+             <pb n="22"/>
+            it seems was anciently called Thermodon, but now is <lb/>
+            called Hæmon, about which we have treated in the life <lb/>
+            of Demosthenes. It would appear that the Amazons <lb/>
+            did not even get across Thessaly without trouble, for <lb/>
+            graves of them are shown to this day at Skotussa and <lb/>
+            Kynoskephalæ.</p>
+          </div>
+<div type="textpart" subtype="section" n="28">
+<p>The above is all that is worthy of mention <lb/>
+            about the Amazons ; for, as to the story which the author <lb/>
+            of the ‘ Theseid' relates about this attack of the Amazons <lb/>
+            being brought about by Antiope to revenge herself upon <lb/>
+            Theseus for his marriage with Phædra, and how she and <lb/>
+            her Amazons fought, and how Herakles slew them, all this <lb/>
+            is clearly fabulous. After the death of Antiope, Theseus <lb/>
+            married Phædra, having a son by Antiope named Hip­ <lb/>
+            polytus, or Demophoon, according to Pindar. As for his <lb/>
+            misfortunes with this wife and son, as the account given <lb/>
+            by historians does not differ from that which appears in <lb/>
+            the plays of the tragic poets, we must believe them to <lb/>
+            have happened as all these writers say.</p>
+          </div>
+<div type="textpart" subtype="section" n="29">
+<p>However, there are certain other legends about <lb/>
+            Theseus' marriage which have never appeared on the <lb/>
+            stage, which have neither a creditable beginning nor a <lb/>
+            prosperous termination: for it is said that he carried off <lb/>
+            one Anaxo, a Trcezenian girl, and after slaying Sinis and <lb/>
+            Kerkyon he forced their daughters, and that he married <lb/>
+            Periboea the mother of Ajax and also Pherebcea and lope <lb/>
+            the daughter of Iphikles : and, as has been told already, <lb/>
+            it was on account of his love for Ægle the daughter of <lb/>
+            Panopeus that he deserted Ariadne, which was a shameful <lb/>
+            and discreditable action. And in addition to all this he <lb/>
+            is charged with carrying off Helen, which brought war <lb/>
+            upon Attica, and exile and destruction on himself; about <lb/>
+            which we shall speak presently. But, though many <lb/>
+            adventures were undertaken by the heroes of those times, <lb/>
+            Herodorus is of opinion that Theseus took no part in any <lb/>
+            of them, except with the Lapithae in their fight with the <lb/>
+            Centaurs; though other writers say that he went to <lb/>
+            Kolchis with Jason and took part with Meleager in the <lb/>
+            hunt of the Kalydonian boar.</p>
+          <p>From these legends arises the proverb, “ Not with­ <lb/>
+            out Theseus;” also he by himself without any comrades <lb/>
+             <pb n="23"/>
+            performed many glorious deeds, from which the saying <lb/>
+            came into vogue, " This is another Herakles."</p>
+          <p>Theseus, together with Adrastus, effected the recovery <lb/>
+            of the bodies of those who fell under the walls of the <lb/>
+            Cadmea at Thebes, not after conquering the Thebans, as <lb/>
+            Euripides puts it in his play, but by a truce and conven­ <lb/>
+            tion, according to most writers. Philochorus even states <lb/>
+            that this was the first occasion on which a truce was made <lb/>
+            for the recovery of those slain in battle. But we have <lb/>
+            shown in our ‘ Life of Herakles' that he was the first to <lb/>
+            restore the corpses of the slain to the enemy. The tombs <lb/>
+            of the rank and file are to be seen at Eleutheræ, but those <lb/>
+            of the chiefs at Eleusis, by favour of Theseus to Adrastus. <lb/>
+            Euripides's play of the ‘ Suppliants' is contradicted by <lb/>
+            that of AEschylus, the ‘ Eleusinians,' in which Theseus is <lb/>
+            introduced giving orders for this to be done.</p>
+          </div>
+<div type="textpart" subtype="section" n="30">
+<p>His friendship for Peirithous is said to have <lb/>
+            arisen in the following manner : He had a great reputa­ <lb/>
+            tion for strength and courage; Peirithous, wishing to <lb/>
+            make trial of these, drove his cattle away from the plain of <lb/>
+            Marathon, and when he learned that Theseus was pursu­ <lb/>
+            ing them, armed, he did not retire, but turned and faced <lb/>
+            him. Each man then admiring the beauty and courage of <lb/>
+            his opponent, refrained from battle, and first Peirithous <lb/>
+            holding out his hand bade Theseus himself assess the <lb/>
+            damages of his raid upon the cattle, saying that he himself <lb/>
+            would willingly submit to whatever penalty the other <lb/>
+            might inflict. Theseus thought no more of their quarrel, <lb/>
+            and invited him to become his friend and comrade; and <lb/>
+            they ratified their compact of friendship by an oath. <lb/>
+            Hereupon, Peirithous, who was about to marry Deidameia, <lb/>
+            begged Theseus to come and visit his country and meet <lb/>
+            the Lapithæ. He also had invited the Centaurs to the <lb/>
+            banquet; and as they in their drunken insolence laid <lb/>
+            hands upon the women, the Lapithæ attacked them. <lb/>
+            Some of them they slew, and the rest they overcame, and <lb/>
+            afterwards, with the assistance of Theseus, banished from <lb/>
+            their country. Herodorus, however, says that this is not <lb/>
+            how these events took place, but that the war was going <lb/>
+            on, and that Theseus went to help the Lapithæ and while <lb/>
+            on his way thither first beheld Herakles, whom he made <lb/>
+             <pb n="24"/>
+            a point of visiting at Trachis, where he was resting aftei <lb/>
+            his labours and wanderings; and that they met with <lb/>
+            many compliments and much good feeling on both sides. <lb/>
+            But one would more incline to those writers who tell us <lb/>
+            that they often met, and that Herakles was initiated by <lb/>
+            Theseus's desire, and was also purified before initiation at <lb/>
+            his instance, which ceremony was necessary because of <lb/>
+            some reckless action.</p>
+          </div>
+<div type="textpart" subtype="section" n="31">
+<p>Theseus was fifty years old, according to <lb/>
+            Hellanikus, when he carried off Helen, who was a mere <lb/>
+            child. For this reason some who wish to clear him of <lb/>
+            this, the heaviest of all the charges against him, say that <lb/>
+            it was not he who carried off Helen, but that Idas and <lb/>
+            Lynkeus carried her off and deposited her in his keeping. <lb/>
+            Afterwards the Twin Brethren came and demanded her <lb/>
+            back, but he would not give her up; or even it is said <lb/>
+            that Tyndareus himself handed her over to him, because <lb/>
+            he feared that Enarsphorus the son of Hippocoon would <lb/>
+            take her by force, she being only a child at the time. <lb/>
+            But the most probable story and that which most writers <lb/>
+            agree in is the following: The two friends, Theseus and <lb/>
+            Peirithous, came to Sparta, seized the maiden, who was <lb/>
+            dancing in the temple of Artemis Orthia, and carried her <lb/>
+            off. As the pursuers followed no farther than Tegea, <lb/>
+            they felt no alarm, but leisurely travelled through <lb/>
+            Peloponnesus, and made a compact that whichever of them <lb/>
+            should win Helen by lot was to have her to wife, but <lb/>
+            must help the other to a marriage. They cast lots on this <lb/>
+            understanding, and Theseus won. As the maiden was <lb/>
+            not yet ripe for marriage he took her with him to <lb/>
+            Aphidnæ, and there placing his mother with her gave <lb/>
+            her into the charge of his friend Aphidnus, bidding him <lb/>
+            watch over her and keep her presence secret. He himself <lb/>
+            in order to repay his obligation to Peirithous went on a <lb/>
+            journey with him to Epirus to obtain the daughter of <lb/>
+            Aidoneus the king of the Molossians, who called his wife <lb/>
+            Persephone, his daughter Kore, and his clog Cerberus. <lb/>
+            All the suitors of his daughter were bidden by him to <lb/>
+            fight this dog, and the victor was to receive her hand. <lb/>
+            However, as he learned that Peirithous and his friend <lb/>
+            were come, not as wooers, but as ravishers, he cast them <lb/>
+             <pb n="25"/>
+            into prison. He put an end to Peirithous at once, by <lb/>
+            means of his dog, but only guarded Theseus strictly.</p>
+          </div>
+<div type="textpart" subtype="section" n="32">
+<p>Now at this period Mnestheus, the son of <lb/>
+            Peteus, who was the son of Omeus, who was the son of <lb/>
+            Erechtheus, first of all mankind they say took to the arts <lb/>
+            of a demagogue, and to currying favour with the people. <lb/>
+            This man formed a league of the nobles, who had long <lb/>
+            borne Theseus a grudge for having destroyed the local <lb/>
+            jurisdiction and privileges of each of the Eupatrids by <lb/>
+            collecting them all together into the capital, where they <lb/>
+            were no more than his subjects and slaves; and he also <lb/>
+            excited the common people by telling them that although <lb/>
+            they were enjoying a fancied freedom they really had been <lb/>
+            deprived of their ancestral privileges and sacred rites, and <lb/>
+            made to endure the rule of one foreign despot, instead of <lb/>
+            that of many good kings of their own blood.</p>
+          <p>While he was thus busily employed, the invasion of <lb/>
+            Attica by the sons of Tyndareus greatly assisted his <lb/>
+            revolutionary scheme; so that some say that it was he <lb/>
+            who invited them to come. At first they abstained from <lb/>
+            violence, and confined themselves to asking that their <lb/>
+            sister Helen should be given up to them ; but when they <lb/>
+            were told by the citizens that she was not in their hands, <lb/>
+            and that they knew not where she was, they proceeded to <lb/>
+            warlike measures. Akademus, who had by some means <lb/>
+            discovered that she was concealed at Aphidnae, now told <lb/>
+            them where she was; for which cause he was honoured <lb/>
+            by the sons of Tyndareus during his life, and also the <lb/>
+            Lacedæmonians, though they often invaded the country <lb/>
+            and ravaged it unsparingly, yet never touched the place <lb/>
+            called the Akademeia, for Akademus's sake. Dikæarchus <lb/>
+            says that Echemus and Marathus, two Arcadians, took <lb/>
+            part in that war with the sons of Tyndareus; and that from <lb/>
+            the first the place now called Akademeia was then named <lb/>
+            Echedemia, and that from the second the township of <lb/>
+            Marathon takes its names, because he in accordance with <lb/>
+            some oracle voluntarily offered himself as a sacrifice there <lb/>
+            in the sight of the whole army.</p>
+          <p>However, the sons of Tyndareus came to Aphidnæ, and <lb/>
+            took the place after a battle, in which it is said that <lb/>
+            Alykus fell, the son of Skeiron, who then was fighting on <lb/>
+             <pb n="26"/>
+            the side of the Dioskuri. In memory of this man it is <lb/>
+            said that the place in the territory of Megara where his <lb/>
+            remains lie is called Alykus. But Hereas writes that <lb/>
+            Alykus was slain by Theseus at Aphidnæ, and as evidence <lb/>
+            he quotes this verse about Alykus, <lb/>
+            “ Him whom Theseus slew in the spacious streets of Aphidnæ, <lb/>
+            Fighting for fair-haired Helen." <lb/>
+            But it is not likely that if Theseus had been there, his <lb/>
+            mother and the town of Aphidnæ would have been taken.</p>
+          </div>
+<div type="textpart" subtype="section" n="33">
+<p>After the fall of Aphidnæ, the people of Athens <lb/>
+            became terrified, and were persuaded by Mnestheus to admit <lb/>
+            the sons of Tyndareus to the city, and to treat them as friends, <lb/>
+            because, he said, they were only at war with Theseus, who <lb/>
+            had been the first to use violence, and were the saviours <lb/>
+            and benefactors of the rest of mankind. These words of <lb/>
+            his were confirmed by their behaviour, for, victorious as <lb/>
+            they were, they yet demanded nothing except initiation <lb/>
+            into the mysteries, as they were, no less than Herakles, <lb/>
+            connected with the city. This was permitted them, and <lb/>
+            they were adopted by Aphidnus, as Herakles had been by <lb/>
+            Pylius. They received divine honours, being addressed as <lb/>
+            " Anakes," either because of the cessation of the war, or <lb/>
+            from the care they took, when they had such a large army <lb/>
+            within the walls of Athens, that no one should be wronged ; <lb/>
+            for those who take care of or guard anything are said to <lb/>
+            do it " anakos," and perhaps for this reason kings are called <lb/>
+            “ Anaktes." Some say that they were called Anakas <lb/>
+            because of the appearance of their stars in the heavens <lb/>
+            above, for the Attics called " above " “ anekas."</p>
+          </div>
+<div type="textpart" subtype="section" n="34">
+<p>It is said that Æthra, the mother of Theseus, <lb/>
+            was carried off as a captive to Lacedæmon, and thence to <lb/>
+            Troy with Helen, and Homer supports this view, when he <lb/>
+            says that there followed Helen, <lb/>
+            " Aithra the daughter of Pittheus and large-eyed Klymene." <lb/>
+            Others reject this verse, and the legend about Mounychus, <lb/>
+            who is said to have been the bastard son of Laodike, by <lb/>
+            Demophoon, and to have been brought up in Troy by <lb/>
+            Aithra. But Istrus, in his thirteenth book of his ‘ History <lb/>
+            of Attica,' tells quite a different and peculiar story about <lb/>
+             <pb n="27"/>
+            Aithra, that he had heard that Paris was conquered by <lb/>
+            Achilles and Patroklus near the river Spercheius, in <lb/>
+            Thessaly, and that Hector took the city of Troezen by <lb/>
+            storm, and amongst the plunder carried off Aithra, who <lb/>
+            had been left there. But this seems impossible.</p>
+          </div>
+<div type="textpart" subtype="section" n="35">
+<p>Now Aidoneus the Molossian king chanced to <lb/>
+            be entertaining Herakles, and related to him the story of <lb/>
+            Theseus and Peirithous, what they had intended to do, <lb/>
+            and how they had been caught in the act and punished. <lb/>
+            Herakles was much grieved at hearing how one had <lb/>
+            perished ingloriously, and the other was like to perish. <lb/>
+            He thought that nothing would be gained by reproaching <lb/>
+            the king for his conduct to Peirithous, but he begged for <lb/>
+            the life of Theseus, and pointed out that the release of his <lb/>
+            friend was a favour which he deserved. Aidoneus agreed, <lb/>
+            and Theseus, when set free, returned to Athens, where he <lb/>
+            found that his party was not yet overpowered. Whatever <lb/>
+            consecrated grounds had been set apart for him by the city, <lb/>
+            he dedicated to Herakles, and called Heraklea instead of <lb/>
+            Thesea, except four, according to Philochorus. But, as he <lb/>
+            at once wished to preside and manage the state as before, <lb/>
+            he was met by factious opposition, for he found that those <lb/>
+            who had been his enemies before, had now learned not to <lb/>
+            fear him, while the common people had become corrupted, <lb/>
+            and now required to be specially flattered instead of doing <lb/>
+            their duty in silence.</p>
+          <p>He endeavoured to establish his government by force, <lb/>
+            but was overpowered by faction; and at last, despairing <lb/>
+            of success, he secretly sent his children to Eubœa, to <lb/>
+            Elephenor, the son of Chalkodous; and he himself, after <lb/>
+            solemnly uttering curses on the Athenians at Gargettus,' <lb/>
+            where now is the place called Araterion, or the place of <lb/>
+            curses, set sail for Skyros, where he was, he imagined, on <lb/>
+            friendly terms with the inhabitants, and possessed a <lb/>
+            paternal estate in the island. At that time Lykomedes <lb/>
+            was king of Skyros; so he proceeded to demand from him <lb/>
+            his lands, in order to live there, though some say that he <lb/>
+            asked him to assist him against the Athenians. Lyko­ <lb/>
+            medes, either in fear of the great reputation of Theseus, <lb/>
+            or else to gain the favour of Mnestheus, led him up to <lb/>
+            the highest mountain top in the country, on the pretext <lb/>
+             <pb n="28"/>
+            of showing him his estate from thence, and pushed him <lb/>
+            over a precipice. Some say that he stumbled and fell <lb/>
+            of himself, as he was walking after supper, according <lb/>
+            to his custom. As soon as he was dead, no one thought <lb/>
+            any more of him, but Mnestheus reigned over the <lb/>
+            Athenians, while Theseus's children were brought up as <lb/>
+            private citizens by Elephenor, and followed him to <lb/>
+            Ilium. When Mnestheus died at Ilium, they returned <lb/>
+            home and resumed their rightful sovereignty. In sub­ <lb/>
+            sequent times, among many other things which led the <lb/>
+            Athenians to honour Theseus as a hero or demi-god, most <lb/>
+            remarkable was his appearance at the battle of Marathon, <lb/>
+            where his spirit was seen by many, clad in armour, lead­ <lb/>
+            ing the charge against the barbarians.</p>
+          </div>
+<div type="textpart" subtype="section" n="36">
+<p>After the Persian war, in the archonship of <lb/>
+            Phædo, the Athenians were told by the Delphian Oracle <lb/>
+            to take home the bones of Theseus and keep them with <lb/>
+            the greatest care and honour. There was great difficulty <lb/>
+            in obtaining them and in discovering his tomb, on account <lb/>
+            of the wild and savage habits of the natives of the island. <lb/>
+            However, Kimon took the island, as is written in my <lb/>
+            history of his Life, and making it a point of honour to dis­ <lb/>
+            cover his tomb, he chanced to behold an eagle pecking <lb/>
+            with its beak and scratching with its talons at a small <lb/>
+            rising ground. Here he dug, imagining that the spot had <lb/>
+            been pointed out by a miracle. There was found the coffin <lb/>
+            of a man of great stature, and lying beside it a brazen <lb/>
+            lance-head and a sword. These relics were brought to <lb/>
+            Athens by Kimon, on board of his trireme, and the de­ <lb/>
+            lighted Athenians received them with splendid processions <lb/>
+            and sacrifices, just as if the hero himself were come to the <lb/>
+            city. He is buried in the midst of the city, near where <lb/>
+            the Gymnasium now stands, and his tomb is a place of <lb/>
+            sanctuary for slaves, and all that are poor and oppressed, <lb/>
+            because Theseus, during his life, was the champion and <lb/>
+            avenger of the poor, and always kindly hearkened to their <lb/>
+            prayers. Their greatest sacrifice in his honour takes <lb/>
+            place on the eighth of the month of Pyanepsion, upon <lb/>
+            which day he and the youths came back from Crete. But <lb/>
+            besides this they hold a service in his honour on the eighth <lb/>
+            of all the other months, either because it was on the <lb/>
+             <pb n="29"/>
+            eighth day of Hekatombeion that he first arrived in Athens <lb/>
+            from Troezen, as is related by Diodorus the topographer, <lb/>
+            or else thinking that number to be especially his own, <lb/>
+            because he is said to have been the son of Poseidon, and <lb/>
+            Poseidon is honoured on the eighth day of every month. <lb/>
+            For the number eight is the first cube of an even number, <lb/>
+            and is double the first square, and therefore peculiarly <lb/>
+            represents the immovable abiding power of that god whom <lb/>
+            we address as " the steadfast," and the “ earth upholder.”</p>
+        
+      </div>
+      </div>
+    </body>
+  </text>
+</TEI>
